@@ -1,0 +1,39 @@
+[17-Feb-2023 06:33:22 Europe/Berlin] PHP Notice:  Undefined variable: url in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 27
+[17-Feb-2023 06:33:22 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 27
+[17-Feb-2023 06:33:22 Europe/Berlin] PHP Notice:  Undefined variable: url in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 34
+[17-Feb-2023 06:36:17 Europe/Berlin] PHP Notice:  Undefined variable: url in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 27
+[17-Feb-2023 06:36:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 27
+[17-Feb-2023 06:36:17 Europe/Berlin] PHP Notice:  Undefined variable: url in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 34
+[17-Feb-2023 15:12:25 America/Sao_Paulo] PHP Notice:  Undefined variable: url in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 24
+[17-Feb-2023 15:12:25 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 24
+[17-Feb-2023 15:12:25 America/Sao_Paulo] PHP Notice:  Undefined variable: url in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 31
+[17-Feb-2023 18:27:46 Europe/Berlin] PHP Warning:  Use of undefined constant SYSTEM_DIR - assumed 'SYSTEM_DIR' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\Projetos\wesite_pessoal\system\config.php on line 15
+[17-Feb-2023 18:27:46 Europe/Berlin] PHP Warning:  require_once(SYSTEM_DIRconfig/connections.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\system\config.php on line 15
+[17-Feb-2023 18:27:46 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'SYSTEM_DIRconfig/connections.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\system\config.php on line 15
+[17-Feb-2023 16:16:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function LoadModule() in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 24
+[17-Feb-2023 16:16:49 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/module/error\404.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:16:49 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/module/error\404.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:19:07 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/module/error/404.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:19:07 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/module/error/404.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:19:09 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/module/error/404.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:19:09 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/module/error/404.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:21:07 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/pages/error/404.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:21:07 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/pages/error/404.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:22:47 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/pages/default/default.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:22:47 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/pages/default/default.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:41:52 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/pages/app/default.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:41:52 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/pages/app/default.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 25
+[17-Feb-2023 16:48:31 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/pages//default/footer.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 27
+[17-Feb-2023 16:48:31 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/pages//default/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 27
+[17-Feb-2023 16:56:27 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 18
+[17-Feb-2023 17:03:44 America/Sao_Paulo] PHP Warning:  include(modules/user/login.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[17-Feb-2023 17:03:44 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'modules/user/login.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[17-Feb-2023 17:04:38 America/Sao_Paulo] PHP Warning:  include(modules/user/login.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[17-Feb-2023 17:04:38 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'modules/user/login.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[17-Feb-2023 17:04:39 America/Sao_Paulo] PHP Warning:  include(modules/user/login.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[17-Feb-2023 17:04:39 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'modules/user/login.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[17-Feb-2023 17:05:09 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/pages/user/login.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[17-Feb-2023 17:05:09 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/pages/user/login.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
