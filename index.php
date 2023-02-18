@@ -25,6 +25,8 @@ $baseUri = BaseURI();
         <link href="lib/stylesheet/media.css" rel="stylesheet" type="text/css" />
         
         <script src="lib/javascript/sm-libary.js" type="text/javascript"></script>
+        <script src="lib/javascript/js-default.js" type="text/javascript"></script>
+        <script src="lib/javascript/sm-Lib.js" type="text/javascript"></script>
         <script src="lib/javascript/core.js" type="text/javascript"></script>
     </head>
     <body>
@@ -71,8 +73,6 @@ $baseUri = BaseURI();
         </div>
 
         <script>
-            var $itemOpen = new ItemOpen();
-
             var res = document.getElementById('dev-tg').children[0];
             res.innerText = window.innerWidth;
             window.onresize = function () {

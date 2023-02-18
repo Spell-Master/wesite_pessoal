@@ -49,3 +49,4 @@ Stack trace:
 [18-Feb-2023 15:31:21 America/Sao_Paulo] PHP Warning:  include(): Filename cannot be empty in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 43
 [18-Feb-2023 15:31:21 America/Sao_Paulo] PHP Warning:  include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 43
 [18-Feb-2023 15:32:50 America/Sao_Paulo] PHP Notice:  Undefined variable: request in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\_TESTE_.php on line 11
+[18-Feb-2023 16:26:44 America/Sao_Paulo] PHP Notice:  Undefined index: text in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header.php on line 10
