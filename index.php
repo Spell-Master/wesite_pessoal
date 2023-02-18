@@ -2,9 +2,8 @@
 <?php
 // Diretório para sistemas
 defined('SYSTEM_DIR') || define('SYSTEM_DIR', __DIR__ . '/system/');
-
 // Diretório das páginas
-defined('PAGE_DIR') || define('PAGE_DIR', __DIR__ . '/pages/');
+defined('PAGE_DIR') || define('PAGE_DIR', __DIR__ . '/modules/');
 
 require_once (SYSTEM_DIR . 'config.php');
 require_once (SYSTEM_DIR . 'function/BaseURI.php');
@@ -16,9 +15,13 @@ $baseUri = BaseURI();
 ?>
 <html>
     <head>
-        <base href="<?= $baseUri ?>">
-        <meta charset="<?= $config->charset ?>">
-        <title><?= $config->siteName ?></title>
+        <base href="<?= $baseUri ?>" />
+        <meta charset="<?= $config->charset ?>" />
+        <title><?= SITE_NAME ?></title>
+
+        <link href="lib/stylesheet/css-default.css" rel="stylesheet" type="text/css" />
+        <link href="lib/stylesheet/core.css" rel="stylesheet" type="text/css" />
+        <link href="lib/stylesheet/media.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <?php
@@ -36,16 +39,17 @@ $baseUri = BaseURI();
             <main><?php include (LoadPage($url[0])); ?></main>
             <footer>
                 <?php include (PAGE_DIR . 'default/footer.php'); ?>
-                <a href="inicio">inicio</a>
-                <a href="administracao">administracao</a>
-                <a href="app">app</a>
-                <a href="perfil">perfil</a>
-                <a href="mensagens">mensagens</a>
-                <a href="sobre">sobre</a>
-                <a href="termos">termos</a>
-                <a href="privacidade">privacidade</a>
-                <a href="doc">doc</a>
-                <a href="comunidade">comunidade</a>
+                <a href="inicio" class="href">inicio</a>
+                <a href="administracao" class="href">administracao</a>
+                <a href="app" class="href">app</a>
+                <a href="doc" class="href">doc</a>
+                <a href="comunidade" class="href">comunidade</a>
+                <a href="perfil" class="href">perfil</a>
+                <a href="mensagens" class="href">mensagens</a>
+                <a href="notificacoes" class="href">notificacoes</a>
+                <a href="sobre" class="href">sobre</a>
+                <a href="termos" class="href">termos</a>
+                <a href="privacidade" class="href">privacidade</a>
             </footer>
             <?php
         }

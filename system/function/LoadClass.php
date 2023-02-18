@@ -22,7 +22,7 @@ spl_autoload_register(function ($Class) {
         'database',
         'helper',
         'mailer',
-        'utils'
+        'model'
     ];
     foreach ($findDir as $DirName) {
         if (!$includeDir

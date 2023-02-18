@@ -1,4 +1,5 @@
 <?php
+
 ////////////////////////////////////////////////
 // Erros de execusão "EM PRODUÇÃO"
 error_reporting(E_ALL);
@@ -7,7 +8,6 @@ ini_set('display_errors', TRUE);
 ini_set('log_errors', TRUE);
 ini_set('error_log', __DIR__ . '/error.log');
 ////////////////////////////////////////////////
-
 // Fixar o buffer do cabeçalho
 ob_start();
 
@@ -37,11 +37,17 @@ try {
         defined('MAIL_PASS') || define('MAIL_PASS', $con['mailPass']);
         defined('MAIL_CHAR') || define('MAIL_CHAR', $con['mailChar']);
 
+        // Nome do website (Usado também para envio de e-mails)
+        defined('SITE_NAME') || define('SITE_NAME', $setting['siteName']);
+
         // Fuso horário do servidor
         date_default_timezone_set('America/Sao_Paulo');
 
         // Auto carregamento de classes
         require_once (SYSTEM_DIR . '/function/LoadClass.php');
+
+        // Define e inicia a única cessão válida dentro do website
+        $session = Session::startSession(SITE_NAME);
 
         // 
         $config = GlobalFilter::ObjArray($setting);
