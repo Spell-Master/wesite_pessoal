@@ -43,3 +43,9 @@ Stack trace:
 [18-Feb-2023 12:00:44 America/Sao_Paulo] PHP Warning:  include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
 [18-Feb-2023 12:00:46 America/Sao_Paulo] PHP Warning:  include(): Filename cannot be empty in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
 [18-Feb-2023 12:00:46 America/Sao_Paulo] PHP Warning:  include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
+[18-Feb-2023 15:22:34 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\_TESTE_.php on line 14
+[18-Feb-2023 15:22:44 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, string given in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\_TESTE_.php on line 14
+[18-Feb-2023 15:26:33 America/Sao_Paulo] PHP Notice:  Undefined variable: modules in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\_TESTE_.php on line 12
+[18-Feb-2023 15:31:21 America/Sao_Paulo] PHP Warning:  include(): Filename cannot be empty in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 43
+[18-Feb-2023 15:31:21 America/Sao_Paulo] PHP Warning:  include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 43
+[18-Feb-2023 15:32:50 America/Sao_Paulo] PHP Notice:  Undefined variable: request in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\_TESTE_.php on line 11

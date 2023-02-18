@@ -3,12 +3,12 @@
 // Diretório para sistemas
 defined('SYSTEM_DIR') || define('SYSTEM_DIR', __DIR__ . '/system/');
 // Diretório das páginas
-defined('PAGE_DIR') || define('PAGE_DIR', __DIR__ . '/modules/');
+defined('MODULE_DIR') || define('MODULE_DIR', __DIR__ . '/modules/');
 
 require_once (SYSTEM_DIR . 'config.php');
 require_once (SYSTEM_DIR . 'function/BaseURI.php');
 require_once (SYSTEM_DIR . 'function/UrlIndex.php');
-require_once (SYSTEM_DIR . 'function/LoadPage.php');
+require_once (SYSTEM_DIR . 'function/LoadModule.php');
 
 $url = UrlIndex();
 $baseUri = BaseURI();
@@ -30,19 +30,19 @@ $baseUri = BaseURI();
     <body>
         <?php
         if ($url[0] === 'cadastro') {
-            include (PAGE_DIR . 'user/new.php');
+            include (MODULE_DIR . 'user/new.php');
         } else if ($url[0] === 'confirmar') {
-            include (PAGE_DIR . 'user/confirm.php');
+            include (MODULE_DIR . 'user/confirm.php');
         } else if ($url[0] === 'recuperar-senha') {
-            include (PAGE_DIR . 'user/recover.php');
+            include (MODULE_DIR . 'user/recover.php');
         } else if ($url[0] === 'entrar') {
-            include (PAGE_DIR . 'user/login.php');
+            include (MODULE_DIR . 'user/login.php');
         } else {
             ?>
-            <header><?php include (PAGE_DIR . 'default/header.php'); ?></header>
-            <main><?php include (LoadPage($url[0])); ?></main>
+            <header><?php include (MODULE_DIR . 'default/header.php'); ?></header>
+            <main><?php include (LoadModule($url[0])); ?></main>
             <footer>
-                <?php include (PAGE_DIR . 'default/footer.php'); ?>
+                <?php include (MODULE_DIR . 'default/footer.php'); ?>
                 <a href="inicio" class="href">inicio</a>
                 <a href="administracao" class="href">administracao</a>
                 <a href="app" class="href">app</a>
