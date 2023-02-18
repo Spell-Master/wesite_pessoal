@@ -37,3 +37,9 @@ Stack trace:
 [17-Feb-2023 17:04:39 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'modules/user/login.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
 [17-Feb-2023 17:05:09 America/Sao_Paulo] PHP Warning:  include(C:\xampp\htdocs\Projetos\wesite_pessoal/pages/user/login.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
 [17-Feb-2023 17:05:09 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\Projetos\wesite_pessoal/pages/user/login.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\index.php on line 32
+[18-Feb-2023 11:59:51 America/Sao_Paulo] PHP Warning:  include(): Filename cannot be empty in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
+[18-Feb-2023 11:59:51 America/Sao_Paulo] PHP Warning:  include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
+[18-Feb-2023 12:00:44 America/Sao_Paulo] PHP Warning:  include(): Filename cannot be empty in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
+[18-Feb-2023 12:00:44 America/Sao_Paulo] PHP Warning:  include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
+[18-Feb-2023 12:00:46 America/Sao_Paulo] PHP Warning:  include(): Filename cannot be empty in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5
+[18-Feb-2023 12:00:46 America/Sao_Paulo] PHP Warning:  include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projetos\wesite_pessoal\modules\default\header-global.php on line 5

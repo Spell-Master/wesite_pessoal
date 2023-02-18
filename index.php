@@ -20,8 +20,12 @@ $baseUri = BaseURI();
         <title><?= SITE_NAME ?></title>
 
         <link href="lib/stylesheet/css-default.css" rel="stylesheet" type="text/css" />
+        <link href="lib/stylesheet/sm-libary.css" rel="stylesheet" type="text/css" />
         <link href="lib/stylesheet/core.css" rel="stylesheet" type="text/css" />
         <link href="lib/stylesheet/media.css" rel="stylesheet" type="text/css" />
+        
+        <script src="lib/javascript/sm-libary.js" type="text/javascript"></script>
+        <script src="lib/javascript/core.js" type="text/javascript"></script>
     </head>
     <body>
         <?php
